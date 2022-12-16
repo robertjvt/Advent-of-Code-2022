@@ -33,7 +33,6 @@ def main():
     for k, v in trees.items():
         x, y = k[0], k[1]
         if x != 0 and y != 0 and x != max_x and y != max_y: # check if tree is visible
-            
             to_check = [[], [], [], []]
             
             for i in range(1, y+1):
